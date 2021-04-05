@@ -2,7 +2,12 @@ import React from 'react'
 import { Image, StyleSheet } from 'react-native'
 
 export default function Logo() {
-  return <Image source={require('../assets/logo.png')} style={styles.image} />
+  return (
+    <Image
+      source={require('../assets/tree-symmetrical-beautiful-shape-with-many-leaves.png')}
+      style={styles.image}
+    />
+  )
 }
 
 const styles = StyleSheet.create({
